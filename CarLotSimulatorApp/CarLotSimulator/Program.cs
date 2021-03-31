@@ -55,7 +55,9 @@ namespace CarLotSimulator
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
             foreach (Car vehichle in lot.CarList)
                 Console.WriteLine($"Year:{vehichle.Year} , Make:{vehichle.Make} , Model: {vehichle.Model}");
-            
+
+            //Static Key Word Excercise # 2
+            Console.WriteLine($"Number of cars in lot: {CarLot.numOfCars}");
 
         }
     }
